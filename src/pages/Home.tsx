@@ -1,8 +1,8 @@
 function Home() {
   return (
     <div className=" text-center ">
-      <div className="flex justify-between items-center p-4">
-        <div className="flex items-center gap-2">
+      <div className="flex flex-col lg:flex-row justify-between items-center p-4 gap-4">
+        <div className="lg:flex items-center gap-2 hidden ">
           <div className="bg-emerald-600 rounded-xl p-1 -rotate-10">
             <img
               src="/logo.svg"
@@ -10,7 +10,7 @@ function Home() {
               className="w-10 h-auto drop-shadow-md drop-shadow-slate-500/50"
             />
           </div>
-          <p className="text-md font-medium text-neutral-700">hyodo.dev</p>
+          <p className="text-md font-medium text-neutral-700 ">hyodo.dev</p>
         </div>
 
         <nav className="gap-2 flex font-medium text-xs">

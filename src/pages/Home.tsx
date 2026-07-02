@@ -31,6 +31,21 @@ function Home() {
           </div>
         </nav>
       </div>
+
+      <section className="mt-10">
+        <div className="flex items-center justify-center gap-2 text-xs font-medium text-neutral-700 mb-4 bg-pink-300 rounded-full p-1 px-3 w-fit mx-auto -rotate-2">
+          <img src="src\assets\star.svg" alt="" className="w-3" />
+          Jeder Pixel am richtigen Platz
+        </div>
+        <h2 className="text-2xl font-medium">
+          Hey, ich bin <span className="text-amber-600">Skrollan </span>ー<br />
+          ich baue <span className="text-emerald-600">kreative</span> Webwelten
+        </h2>
+        <p className="text-slate-500 text-sm mt-2">
+          Frontend-Entwicklerin mit Liebe zum Detail – für Code, der auf jedem Screen glänzt.
+        </p>
+        <button className="bg-pink-600 text-slate-50 text-sm p-1 px-3 ">Projekte ansehen</button>
+      </section>
     </div>
   );
 }

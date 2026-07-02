@@ -8,7 +8,7 @@ function Home() {
         <div className="lg:flex items-center gap-2 hidden ">
           <div className="bg-emerald-600 rounded-xl p-1 -rotate-10">
             <img
-              src="logo.svg"}
+              src="logo.svg"
               alt="Logo"
               className="w-10 h-auto drop-shadow-md drop-shadow-slate-500/50"
             />

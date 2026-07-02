@@ -45,7 +45,7 @@ function Home() {
           Frontend-Entwicklerin mit Liebe zum Detail – für Code, der auf jedem Screen glänzt.
         </p>
         <div className="flex justify-center gap-5 mt-5">
-          <button className="bg-pink-600 text-slate-50 text-sm p-1 px-3 flex gap-2 rounded-lg">
+          <button className="bg-pink-600 text-red-50 text-sm font-medium p-1 px-3 flex gap-2 rounded-lg">
             projekte ansehen
             <img src="src/assets/arrow.svg" alt="arrow" className="w-2 " />
           </button>

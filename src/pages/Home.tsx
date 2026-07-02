@@ -1,3 +1,6 @@
+import starIcon from "../assets/star.svg";
+import arrowIcon from "../assets/arrow.svg";
+
 function Home() {
   return (
     <div className=" text-center ">
@@ -5,7 +8,7 @@ function Home() {
         <div className="lg:flex items-center gap-2 hidden ">
           <div className="bg-emerald-600 rounded-xl p-1 -rotate-10">
             <img
-              src="/logo.svg"
+              src={`${import.meta.env.BASE_URL}logo.svg`}
               alt="Logo"
               className="w-10 h-auto drop-shadow-md drop-shadow-slate-500/50"
             />
@@ -34,7 +37,7 @@ function Home() {
 
       <section className="mt-10">
         <div className="flex items-center justify-center gap-2 text-xs font-medium text-neutral-700 mb-4 bg-pink-300 rounded-full p-1 px-3 w-fit mx-auto -rotate-2">
-          <img src="src/assets/star.svg" alt="" className="w-3" />
+          <img src={starIcon} alt="" className="w-3" />
           Jeder Pixel am richtigen Platz
         </div>
         <h2 className="text-2xl font-medium">
@@ -47,7 +50,7 @@ function Home() {
         <div className="flex justify-center gap-5 mt-5">
           <button className="bg-pink-600 text-red-50 text-sm font-medium p-1 px-3 flex gap-2 rounded-lg">
             projekte ansehen
-            <img src="src/assets/arrow.svg" alt="arrow" className="w-2 " />
+            <img src={arrowIcon} alt="arrow" className="w-2 " />
           </button>
           <button className=" text-emerald-600 font-medium border-emerald-500 border-2 text-sm p-1 px-3 flex gap-2 rounded-lg">
             sag hallo

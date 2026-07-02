@@ -34,7 +34,7 @@ function Home() {
 
       <section className="mt-10">
         <div className="flex items-center justify-center gap-2 text-xs font-medium text-neutral-700 mb-4 bg-pink-300 rounded-full p-1 px-3 w-fit mx-auto -rotate-2">
-          <img src="src\assets\star.svg" alt="" className="w-3" />
+          <img src="src/assets/star.svg" alt="" className="w-3" />
           Jeder Pixel am richtigen Platz
         </div>
         <h2 className="text-2xl font-medium">
@@ -44,7 +44,15 @@ function Home() {
         <p className="text-slate-500 text-sm mt-2">
           Frontend-Entwicklerin mit Liebe zum Detail – für Code, der auf jedem Screen glänzt.
         </p>
-        <button className="bg-pink-600 text-slate-50 text-sm p-1 px-3 ">Projekte ansehen</button>
+        <div className="flex justify-center gap-5 mt-5">
+          <button className="bg-pink-600 text-slate-50 text-sm p-1 px-3 flex gap-2 rounded-lg">
+            projekte ansehen
+            <img src="src/assets/arrow.svg" alt="arrow" className="w-2 " />
+          </button>
+          <button className=" text-emerald-600 font-medium border-emerald-500 border-2 text-sm p-1 px-3 flex gap-2 rounded-lg">
+            sag hallo
+          </button>
+        </div>
       </section>
     </div>
   );

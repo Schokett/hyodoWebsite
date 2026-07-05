@@ -4,7 +4,7 @@ import arrowIcon from "../assets/arrow.svg";
 function Home() {
   return (
     <div className=" text-center ">
-      <section className="">
+      <section className="mb-70">
         <div className="flex flex-col lg:flex-row justify-between items-center p-4 gap-4">
           <div className="lg:flex items-center gap-2 hidden ">
             <div className="bg-emerald-600 rounded-xl p-1 -rotate-10">
@@ -57,7 +57,11 @@ function Home() {
           </button>
         </div>
       </section>
-      <section className="bg-amber-300 h-500">Hi hier bin ich</section>
+      <section className="grid grid-row-3 lg:grid-cols-3 gap-10 mr-10 ml-10 mx-10 justify-items-center">
+        <div className="bg-violet-400 rounded-2xl h-50 max-w-100 w-full"></div>
+        <div className="bg-emerald-400 rounded-2xl h-50 max-w-100 w-full"></div>
+        <div className="bg-orange-400 rounded-2xl h-50 max-w-100 w-full"></div>
+      </section>
     </div>
   );
 }

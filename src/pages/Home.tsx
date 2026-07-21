@@ -5,31 +5,31 @@ function Home() {
   return (
     <div className=" text-center ">
       <section className="mb-70">
-        <div className="flex flex-col lg:flex-row justify-between items-center p-4 gap-4">
+        <div className="flex flex-col lg:flex-row justify-between items-center p-4 gap-4 mx-60">
           <div className="lg:flex items-center gap-2 hidden ">
-            <div className="bg-emerald-600 rounded-xl p-1 -rotate-10">
+            <div className="bg-emerald-600/50 rounded-xl p-2 -rotate-10">
               <img
                 src="logo.svg"
                 alt="Logo"
-                className="w-10 h-auto drop-shadow-md drop-shadow-slate-500/50"
+                className="w-12 h-auto drop-shadow-md drop-shadow-slate-500/50 transition-all cursor-pointer hover:drop-shadow-emerald-600/90 hover:duration-300 "
               />
             </div>
             <p className="text-md font-medium text-neutral-700 ">hyodo.dev</p>
           </div>
 
           <nav className="gap-2 flex font-medium text-xs">
-            <div className="bg-green-200 text-green-950 rounded-full p-1 px-2">
-              <a href="" className="">
+            <div className="bg-green-200 text-green-700 rounded-full p-2 px-4">
+              <a href="" className="text-lg font-medium grayscale-80">
                 projekte
               </a>
             </div>
-            <div className="bg-red-200 text-red-950 rounded-full p-1 px-2">
-              <a href="" className="über mich">
+            <div className="bg-red-200 text-red-700 rounded-full p-2 px-4">
+              <a href="" className="text-lg font-medium grayscale-80">
                 über mich
               </a>
             </div>
-            <div className="bg-indigo-200 text-indigo-950 rounded-full p-1 px-2">
-              <a href="" className="kontakt">
+            <div className="bg-indigo-200 text-indigo-700 rounded-full p-2 px-4">
+              <a href="" className="text-lg font-medium grayscale-80">
                 kontakt
               </a>
             </div>

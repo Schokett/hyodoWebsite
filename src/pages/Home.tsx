@@ -18,17 +18,17 @@ function Home() {
           </div>
 
           <nav className="gap-2 flex font-medium text-xs">
-            <div className="bg-green-200 text-green-700 rounded-full p-2 px-4">
+            <div className="bg-green-200 text-green-700 rounded-full p-2 sm:px-4 ">
               <a href="" className="text-lg font-medium grayscale-80">
                 projekte
               </a>
             </div>
-            <div className="bg-red-200 text-red-700 rounded-full p-2 px-4">
+            <div className="bg-red-200 text-red-700 rounded-full p-2 sm:px-4">
               <a href="" className="text-lg font-medium grayscale-80">
                 über mich
               </a>
             </div>
-            <div className="bg-indigo-200 text-indigo-700 rounded-full p-2 px-4">
+            <div className="bg-indigo-200 text-indigo-700 rounded-full p-2 sm:px-4">
               <a href="" className="text-lg font-medium grayscale-80">
                 kontakt
               </a>
@@ -36,8 +36,8 @@ function Home() {
           </nav>
         </div>
 
-        <div className="mt-15 flex items-center justify-center gap-2 text-xs font-medium text-pink-800 mb-4 bg-pink-200 rounded-full p-1 px-3 w-fit mx-auto -rotate-2">
-          <StarIcon className="w-3 text-pink-800" />
+        <div className="mt-15 flex items-center justify-center gap-1 text-xs font-medium text-pink-800 mb-4 bg-pink-200 rounded-full p-1 px-3 w-fit mx-auto -rotate-2">
+          <StarIcon className="w-4 text-pink-800" />
           Jeder Pixel am richtigen Platz
         </div>
         <h2 className="lg:text-5xl text-xl font-medium">
@@ -48,19 +48,28 @@ function Home() {
           Frontend-Entwicklerin mit Liebe zum Detail – für Code, der auf jedem Screen glänzt.
         </p>
         <div className="flex justify-center gap-5 lg:gap-10 mt-5">
-          <button className="bg-pink-600 border-b-5 border-pink-700 cursor-pointer text-red-50 text-sm font-medium p-2 px-3 flex gap-2 rounded-lg -rotate-1 transition-all duration-300 ease-out hover:bg-emerald-500 hover:border-emerald-600 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-emerald-500/50">
+          <button className="bg-pink-600 border-b-5 border-pink-700 cursor-pointer text-red-50 text-sm font-medium p-2 px-3 flex gap-2 rounded-lg -rotate-1 transition-all duration-300 ease-out hover:bg-emerald-500 hover:border-emerald-600 hover:-translate-y-0.5 hover:shadow-md hover:shadow-emerald-500/50">
             projekte ansehen
             <img src={arrowIcon} alt="arrow" className="w-2 " />
           </button>
-          <button className="text-emerald-600 font-medium border-emerald-500 border-2 text-sm p-2 px-3 flex gap-2 rounded-lg rotate-1 cursor-pointer transition-all duration-300 ease-out hover:border-pink-600 hover:text-pink-600 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-pink-500/50">
+          <button className="text-emerald-600 font-medium border-emerald-500 border-2 text-sm p-2 px-3 flex gap-2 rounded-lg rotate-1 cursor-pointer transition-all duration-300 ease-out hover:border-pink-600 hover:text-pink-600 hover:-translate-y-0.5 hover:shadow-md hover:shadow-pink-500/50">
             sag hallo
           </button>
         </div>
       </section>
-      <section className="grid grid-row-3 lg:grid-cols-3 gap-10 mr-10 ml-10 mx-10 justify-items-center">
-        <div className="bg-violet-400 rounded-2xl h-50 max-w-100 w-full"></div>
-        <div className="bg-emerald-400 rounded-2xl h-50 max-w-100 w-full"></div>
-        <div className="bg-orange-400 rounded-2xl h-50 max-w-100 w-full"></div>
+
+      <section className="px-10">
+        <div className="max-w-100 lg:max-w-[90rem] mx-auto">
+          <div className="flex items-center gap-1">
+            <StarIcon className="w-4 text-blue-500" />
+            <p className="text-start text-slate-600/60 font-medium tracking-tight">mein toolkit</p>
+          </div>
+          <div className="grid grid-rows-3 lg:grid-cols-3 gap-10 mt-4">
+            <div className="bg-violet-300 rounded-2xl h-50 w-full"></div>
+            <div className="bg-emerald-300 rounded-2xl h-50 w-full"></div>
+            <div className="bg-orange-300 rounded-2xl h-50 w-full"></div>
+          </div>
+        </div>
       </section>
     </div>
   );

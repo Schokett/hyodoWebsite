@@ -3,7 +3,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="bg-neutral-50 min-h-screen w-screen relative z-0">
+    <div className="bg-neutral-50 min-h-screen relative z-0">
       <div className="fixed inset-0 -z-10 overflow-hidden pointer-events-none">
         <div className="bg-orange-300 rounded-full mx-auto w-25 h-25 -mt-7 -top-2 -right-5 lg:w-40 lg:h-40 lg:-mt-7 lg:-top-10 lg:-right-10 absolute "></div>
         <div className="bg-pink-300  rounded-3xl mx-auto rotate-15 w-22 h-22 mt-10 -left-14 lg:w-32 lg:h-32  lg:mt-10 lg:-left-10 absolute"></div>

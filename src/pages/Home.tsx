@@ -1,6 +1,6 @@
-import Nav from "../components/nav";
-import Hero from "../components/hero";
-import Toolkit from "../components/toolkit";
+import Nav from "../components/Nav";
+import Hero from "../components/Hero";
+import Toolkit from "../components/Toolkit";
 
 function Home() {
   return (
